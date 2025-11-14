@@ -152,7 +152,7 @@ input {
 	right: 24px;
 	top: 50%;
 	transform: translateY(-50%);
-	background-image: url(/assets/zoom.svg);
+	background-image: url(assets/zoom.svg);
 	width: 24px;
 	height: 25px;
 }
@@ -287,7 +287,7 @@ input {
 .breadcrumbs__link::after {
 	content: '';
 	display: inline-block;
-	background-image: url(/assets/chevron-right.svg);
+	background-image: url(assets/chevron-right.svg);
 	width: 24px;
 	height: 22px;
 }
