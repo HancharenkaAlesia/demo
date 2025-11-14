@@ -590,5 +590,10 @@ input {
 .footer__menu {
 	display: flex;
 	gap: 16px;
-	flex-wrap: wrap;
+}
+
+@media (width < 768px) {
+	.footer__menu {
+		flex-wrap: wrap;
+	}
 }
