@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Test</title>
+</head>
+
+<body>
+
+	<header class="header" data-js-overlay-menu>
+		<div class="header__inner container">
+			<a href="" class="header__logo">
+				<img width="160" height="52" src="assets/logo.svg" alt="GlassGo Logo">
+			</a>
+
+			<dialog class="header__overlay-menu-dialog" data-js-overlay-menu-dialog>
+				<nav class="header__menu">
+					<ul class="header__menu-list">
+						<li class="header__menu-item">
+							<a href="/" class="header__menu-link">Компания</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="/" class="header__menu-link">Продукты</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="/" class="header__menu-link">Карьера</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="/" class="header__menu-link">Медиа</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="/" class="header__menu-link">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+				<form action="" class="header__form">
+					<div class="header__form-wrapper">
+						<label class="header__form-label visually-hidden" for="site-search">Поиск на сайте</label>
+						<input class="header__form-input" type="search" id="site-search" name="Search" placeholder="Поиск">
+					</div>
+				</form>
+				<div class="header__actions">
+					<a href="/" class="header__action">
+						<img width="30" height="30" src="/assets/telegram.svg" alt="Telegram" class="header__action-icon">
+					</a>
+					<a href="/" class="header__action">
+						<img width="30" height="30" src="/assets/dzen.svg" alt="Dzen" class="header__action-icon">
+					</a>
+					<a href="/" class="header__action">
+						<img width="30" height="30" src="/assets/vk.svg" alt="VK" class="header__action-icon">
+					</a>
+				</div>
+			</dialog>
+
+			<button class="header__burger-button visible-tablet burger-button" type="button" aria-label="Open menu"
+				title="Open menu" data-js-overlay-menu-burger-button="">
+				<span></span>
+			</button>
+		</div>
+	</header>
+
+	<main class="content">
+		<section class="breadcrumbs">
+			<div class="breadcrumbs__inner container">
+				<a href="/" class="breadcrumbs__link">Главная</a>
+				<div class="breadcrumbs__total">Блог и новости</div>
+			</div>
+		</section>
+
+		<section class="blog grid-section">
+			<div class="grid-section__inner container">
+				<h1 class="grid-section__main-title desktop-hidden">медиа</h1>
+				<header class="grid-section__header">
+					<h2 class="grid-section__header-title">Блог</h2>
+					<a href="/" class="grid-section__header-link">Смотреть все</a>
+				</header>
+				<div class="grid-section__body">
+					<div class="grid-section__body-flex">
+						<ul class="grid-section__body-list">
+							<li class="grid-section__body-item article-item">
+								<img src="assets/blog.jpg" alt="Жизнь в мире тишины: Проблемы и вызовы слабослышащих людей"
+									class="article-item__img">
+								<div class="article-item__body">
+									<div class="article-item__wrapper">
+										<time datetime="2024-02-27" class="article-item__date">27.02.24</time>
+										<a href="/" class="article-item__source">dzen.ru</a>
+									</div>
+									<h2 class="article-item__title">
+										<a href="/">Жизнь в мире тишины:
+											Проблемы и вызовы слабослышащих людей</a>
+									</h2>
+									<div class="article-item__description">
+										<p>Рассмотрим более подробно, с какими именно проблемами они сталкиваются и как общество
+											может помочь в их преодолении.</p>
+									</div>
+								</div>
+							</li>
+							<li class="grid-section__body-item article-item">
+								<img src="assets/blog.jpg" alt="Жизнь в мире тишины: Проблемы и вызовы слабослышащих людей"
+									class="article-item__img">
+								<div class="article-item__body">
+									<div class="article-item__wrapper">
+										<time datetime="2024-02-27" class="article-item__date">27.02.24</time>
+										<a href="/" class="article-item__source">dzen.ru</a>
+									</div>
+									<h2 class="article-item__title">
+										<a href="/">Жизнь в мире тишины:
+											Проблемы и вызовы слабослышащих людей</a>
+									</h2>
+									<div class="article-item__description">
+										<p>Рассмотрим более подробно, с какими именно проблемами они сталкиваются и как общество
+											может помочь в их
+											преодолении.</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<div class="grid-section__body-banner article-banner">
+							<a href="/" class="article-banner__source">dzen.ru</a>
+							<a href="/" class="article-banner__name">Жизнь в мире тишины:
+								Проблемы и вызовы слабослышащих людей</a>
+							<time datetime="2024-02-27" class="article-banner__date">27 февраля 2024</time>
+						</div>
+					</div>
+				</div>
+				<a href="/" class="grid-section__header-link desktop-hidden">Смотреть все</a>
+			</div>
+		</section>
+
+		<section class="news grid-section grid-section--padding-top-large">
+			<div class="grid-section__inner container">
+				<header class="grid-section__header">
+					<h2 class="grid-section__header-title">Новости</h2>
+					<a href="/" class="grid-section__header-link">Смотреть все</a>
+				</header>
+				<div class="grid-section__body">
+					<div class="grid-section__body-flex grid-section__body-flex--reverse">
+						<div class="grid-section__body-banner article-banner">
+							<a href="/" class="article-banner__source">dzen.ru</a>
+							<a href="/" class="article-banner__name">новый продукт на рынке девайсов для слабослышащих</a>
+							<time datetime="2024-02-27" class="article-banner__date">27 февраля 2024</time>
+						</div>
+						<ul class="grid-section__body-list">
+							<li class="grid-section__body-item article-item">
+								<img src="assets/blog.jpg" alt="Жизнь в мире тишины: Проблемы и вызовы слабослышащих людей"
+									class="article-item__img">
+								<div class="article-item__body">
+									<div class="article-item__wrapper">
+										<time datetime="2024-02-27" class="article-item__date">27.02.24</time>
+										<a href="/" class="article-item__source">dzen.ru</a>
+									</div>
+									<h2 class="article-item__title">
+										<a href="/">Жизнь в мире тишины:
+											Проблемы и вызовы слабослышащих людей</a>
+									</h2>
+									<div class="article-item__description">
+										<p>Рассмотрим более подробно, с какими именно проблемами они сталкиваются и как общество
+											может помочь в их преодолении.</p>
+									</div>
+								</div>
+							</li>
+							<li class="grid-section__body-item article-item">
+								<img src="assets/blog.jpg" alt="Жизнь в мире тишины: Проблемы и вызовы слабослышащих людей"
+									class="article-item__img">
+								<div class="article-item__body">
+									<div class="article-item__wrapper">
+										<time datetime="2024-02-27" class="article-item__date">27.02.24</time>
+										<a href="/" class="article-item__source">dzen.ru</a>
+									</div>
+									<h2 class="article-item__title">
+										<a href="/">Жизнь в мире тишины:
+											Проблемы и вызовы слабослышащих людей</a>
+									</h2>
+									<div class="article-item__description">
+										<p>Рассмотрим более подробно, с какими именно проблемами они сталкиваются и как общество
+											может помочь в их
+											преодолении.</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+				<a href="/" class="grid-section__header-link desktop-hidden">Смотреть все</a>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+		<div class="footer__inner container">
+			<div class="footer__body">
+				<a href="/" class="footer__logo">
+					<img src="/assets/footer-logo.svg" alt="GlassGo">
+				</a>
+				<nav class="footer__menu">
+					<div class="footer__column">
+						<div class="footer__menu-details">
+							<summary class="footer__menu-summary">Компания</summary>
+						</div>
+						<div class="footer__menu-content">
+							<ul class="footer__menu-list">
+								<li class="footer__menu-item">
+									<a href="" class="footer__menu-link">О компании</a>
+									<a href="" class="footer__menu-link">О компании</a>
+									<a href="" class="footer__menu-link">О компании</a>
+									<a href="" class="footer__menu-link">О компании</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__column">
+						<div class="footer__menu-details">
+							<summary class="footer__menu-summary">Компания</summary>
+						</div>
+						<div class="footer__menu-content">
+							<ul class="footer__menu-list">
+								<li class="footer__menu-item">
+									<a href="" class="footer__menu-link">О компании</a>
+									<a href="" class="footer__menu-link">О компании</a>
+									<a href="" class="footer__menu-link">О компании</a>
+									<a href="" class="footer__menu-link">О компании</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__column">
+						<div class="footer__menu-details">
+							<summary class="footer__menu-summary">Компания</summary>
+						</div>
+						<div class="footer__menu-content">
+							<ul class="footer__menu-list">
+								<li class="footer__menu-item">
+									<a href="" class="footer__menu-link">О компании</a>
+									<a href="" class="footer__menu-link">О компании</a>
+									<a href="" class="footer__menu-link">О компании</a>
+									<a href="" class="footer__menu-link">О компании</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__column">
+						<div class="footer__menu-details">
+							<summary class="footer__menu-summary">Компания</summary>
+						</div>
+						<div class="footer__menu-content">
+							<ul class="footer__menu-list">
+								<li class="footer__menu-item">
+									<a href="" class="footer__menu-link">О компании</a>
+									<a href="" class="footer__menu-link">О компании</a>
+									<a href="" class="footer__menu-link">О компании</a>
+									<a href="" class="footer__menu-link">О компании</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+				<div class="footer__contacts">Контакты</div>
+			</div>
+			<div class="footer__extra">
+				<p class="footer__extra-copyright">© 2024 GlassGo</p>
+				<div class="footer-extra__actions">
+					<a href="/" class="footer__extra-link">Политика конфиденциальности</a>
+					<a href="/" class="footer__extra-link">Пользовательское соглашение</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
